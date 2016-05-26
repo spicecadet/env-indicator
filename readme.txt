@@ -1,9 +1,9 @@
 === WP Engine Environment Indicator ===
-Contributors: Edmund Turbin
+Contributors: edmund.turbin
 Tags: wpe, wpengine, environment indicator
 Requires at least: 3.0.1
 Tested up to: 4.5.2
-Stable tag: 0.1
+Stable tag: 0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -30,6 +30,9 @@ The development environment will be default for any local or development sites t
 1. Example of the wp-admin toolbar while using the environment indicator on a local site.
 
 == Changelog ==
+
+= 0.2 =
+Code cleanup and formatting.
 
 = 0.1 =
 Initial release with basic functionality.

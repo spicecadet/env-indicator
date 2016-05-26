@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: WP Engine Environment Indicator
-Plugin URI: http://edmundturbin.com
+Plugin URI: http://wpengine.com
 Description: Changes the WordPress Toolbar color depending on the current WP Engine environment. Green indicates Production, Yellow indicates Staging and Red indicates Development.
-Author: Edmund Turbin
+Author: WP Engine
 Version: 0.1
-Author URI: http://edmundturbin.com
+Author URI: http://wpengine.com
 License: GPLv2 or later.
  
 WP Engine Environment Incicator is free software: you can redistribute it and/or modify
@@ -25,9 +25,3 @@ along with WP Engine Environment Incicator. If not, see http://www.gnu.org/licen
 include_once __DIR__.'/class-env-indicator.php';
 
 $wpengine_env_indicator = wpengine\EnvIndicator::get_instance();
-
-add_action( 'admin_body_class', array( $wpengine_env_indicator, 'add_admin_body_class' ));
-add_action( 'body_class', array( $wpengine_env_indicator, 'add_body_class' ));
-add_action( 'admin_enqueue_scripts',  array( $wpengine_env_indicator, 'add_stylesheet' ));
-add_action( 'wp_enqueue_scripts', array( $wpengine_env_indicator, 'add_stylesheet' ));
-add_action( 'admin_bar_menu', array( $wpengine_env_indicator, 'update_site_name' ), 99 ); 

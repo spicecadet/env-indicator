@@ -1,23 +1,27 @@
+/**
+ * Styles that change the color of the WP Admin Toolbar and Sidebar when added to the <body> 
+ */
+
 .wpe-ei-development #wpadminbar {
-    background-color: rgb(228, 36, 41) !important;
+    background-color: rgb(228, 36, 41);
 }
 
 .wpe-ei-development #adminmenuwrap {
-    background-color: rgb(203, 11, 16) !important;
+    background-color: rgb(203, 11, 16);
 }
 
 .wpe-ei-staging #wpadminbar {
-    background-color: rgb(253, 163, 54) !important;
+    background-color: rgb(253, 163, 54);
 }
 
 .wpe-ei-staging #adminmenuwrap {
-    background-color: rgb(228,  138,  29) !important;
+    background-color: rgb(228,  138,  29);
 }
 
 .wpe-ei-production #wpadminbar {
-    background-color: rgb(21, 163, 140) !important;
+    background-color: rgb(21, 163, 140);
 }
 
 .wpe-ei-production #adminmenuwrap {
-    background-color: rgb(0, 138, 115) !important;
+    background-color: rgb(0, 138, 115);
 }
